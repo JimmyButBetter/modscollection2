@@ -15,3 +15,5 @@ Zoomify
 bobby
 entitymodelfeatures
 entitytexturefeatures
+freecam-fabric
+particle-rain
