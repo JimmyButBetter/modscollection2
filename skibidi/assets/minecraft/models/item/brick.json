@@ -1,0 +1,31 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/brick"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data": 1}, "model": "item/empty"},
+        {"predicate": {"custom_model_data": 2}, "model": "item/killer_mask"},
+        {"predicate": {"custom_model_data": 3}, "model": "item/chainsaw_villager_held"},
+        {"predicate": {"custom_model_data": 4}, "model": "item/soul_mob"},
+        {"predicate": {"custom_model_data": 5}, "model": "item/impossible_dragon/red_arrow_up"},
+        {"predicate": {"custom_model_data": 6}, "model": "item/impossible_dragon/red_arrow_down"},
+        {"predicate": {"custom_model_data": 7}, "model": "item/impossible_dragon/red_arrow_left"},
+        {"predicate": {"custom_model_data": 8}, "model": "item/impossible_dragon/red_arrow_right"},
+        {"predicate": {"custom_model_data": 9}, "model": "item/pc0"},
+        {"predicate": {"custom_model_data": 10}, "model": "item/pc1"},
+        {"predicate": {"custom_model_data": 11}, "model": "item/pc2"},
+        {"predicate": {"custom_model_data": 12}, "model": "item/pc3"},
+        {"predicate": {"custom_model_data": 13}, "model": "item/m_scarecrow1"},
+        {"predicate": {"custom_model_data": 14}, "model": "item/m_scarecrow2"},
+        {"predicate": {"custom_model_data": 15}, "model": "item/crow"},
+        {"predicate": {"custom_model_data": 16}, "model": "item/anvil_spike"},
+        {"predicate": {"custom_model_data": 17}, "model": "item/leaderboard_tear"},
+        {"predicate": {"custom_model_data": 18}, "model": "item/leaderboard_crown"},
+        {"predicate": {"custom_model_data": 19}, "model": "item/slime_puddle"},
+        {"predicate": {"custom_model_data": 20}, "model": "item/slime_puddle2"},
+        {"predicate": {"custom_model_data": 21}, "model": "item/full_vine_6"},
+        {"predicate": {"custom_model_data": 22}, "model": "item/shulker_shield_inner"},
+        {"predicate": {"custom_model_data": 23}, "model": "item/shulker_shield_outer"}
+    ]
+}

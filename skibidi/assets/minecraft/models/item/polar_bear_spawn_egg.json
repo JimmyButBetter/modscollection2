@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/template_spawn_egg",
+  "overrides": [
+      {"predicate": {"custom_model_data": 101}, "model": "minecraft:item/impossible_dragon/crystal_tail"},
+	  {"predicate": {"custom_model_data": 102}, "model": "minecraft:item/impossible_dragon/icon_jumppad"}
+  ]
+}

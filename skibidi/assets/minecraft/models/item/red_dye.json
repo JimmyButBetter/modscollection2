@@ -1,0 +1,162 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/red_dye"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "item/animated_java_empty"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "animated_java:item/lava_wave/wave_lowest"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "animated_java:item/lava_wave/wave_upper"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4
+			},
+			"model": "animated_java:item/lava_wave/wave_lower"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 5
+			},
+			"model": "animated_java:item/lava_wave/ground"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6
+			},
+			"model": "minecraft:item/rig_dance/leftarm_bottom"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 7
+			},
+			"model": "minecraft:item/rig_dance/rightleg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 8
+			},
+			"model": "minecraft:item/rig_dance/rightleg_bottom"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 9
+			},
+			"model": "minecraft:item/rig_dance/leftleg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 10
+			},
+			"model": "minecraft:item/rig_dance/leftleg_bottom"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 11
+			},
+			"model": "minecraft:item/rig_villager/leg_right_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 12
+			},
+			"model": "minecraft:item/rig_villager/leg_right_2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 13
+			},
+			"model": "minecraft:item/rig_villager/leg_left_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 14
+			},
+			"model": "minecraft:item/rig_villager/leg_left_2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 15
+			},
+			"model": "minecraft:item/rig_villager/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 16
+			},
+			"model": "minecraft:item/rig_villager/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 17
+			},
+			"model": "minecraft:item/rig_villager/arm_right_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 18
+			},
+			"model": "minecraft:item/rig_villager/arm_right_2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 19
+			},
+			"model": "minecraft:item/rig_villager/arm_left_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 20
+			},
+			"model": "minecraft:item/rig_villager/arm_left_2"
+		}
+	],
+	"animated_java": {
+		"rigs": {
+			"lava_wave": {
+				"used_ids": [
+					2,
+					3,
+					4,
+					5
+				]
+			}
+		}
+	},
+	"aj": {
+		"includedRigs": {
+			"cf40661b-7231-a19c-ee60-c5eb1ad931cf": {
+				"name": "mcyum_dance",
+				"usedIDs": [
+					[
+						1,
+						10
+					]
+				]
+			},
+			"3eaab2b6-a49f-9410-4306-5c3db2a33c7d": {
+				"name": "buff_villager",
+				"usedIDs": [
+					[
+						11,
+						20
+					]
+				]
+			}
+		}
+	}
+}

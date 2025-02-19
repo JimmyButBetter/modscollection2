@@ -1,0 +1,57 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "minecraft:item/yellow_dye"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "item/animated_java_empty"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "animated_java:item/crafting_table_rocket_launcher/rocketlauncher"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "animated_java:item/crafting_table_rocket_launcher/rocket_launcher_arm5"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4
+			},
+			"model": "animated_java:item/crafting_table_rocket_launcher/rocket_launcher_arm4"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 5
+			},
+			"model": "animated_java:item/crafting_table_rocket_launcher/rocket_launcher_arm3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6
+			},
+			"model": "animated_java:item/crafting_table_rocket_launcher/rocket_launcher_arm2"
+		}
+	],
+	"animated_java": {
+		"rigs": {
+			"crafting_table_rocket_launcher": {
+				"used_ids": [
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/warped_fungus_on_a_stick"
+	},
+    "overrides": [
+		{"predicate": {"custom_model_data": 1}, "model": "item/head_commandgeek"},
+		{"predicate": {"custom_model_data": 2}, "model": "item/head_mcbirken"},
+		{"predicate": {"custom_model_data": 3}, "model": "item/dragon_staff_v4"},
+		{"predicate": {"custom_model_data": 4}, "model": "item/icon_start"},
+		{"predicate": {"custom_model_data": 5}, "model": "item/icon_teleport"},
+		{"predicate": {"custom_model_data": 6}, "model": "item/totem_of_preservation"},
+		{"predicate": {"custom_model_data": 7}, "model": "item/totem_of_nutrition"},
+		{"predicate": {"custom_model_data": 8}, "model": "item/impossible_dragon/lore_book_page_1"},
+		{"predicate": {"custom_model_data": 9}, "model": "item/impossible_dragon/lore_book_page_2"},
+		{"predicate": {"custom_model_data": 10}, "model": "item/impossible_dragon/lore_book_closed"}
+
+    ]
+}

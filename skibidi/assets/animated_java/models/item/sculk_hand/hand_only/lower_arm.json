@@ -1,0 +1,9 @@
+{
+	"parent": "animated_java:item/sculk_hand/default/lower_arm",
+	"textures": {
+		"0": "impossible_to_speedrun:item/hand/hand_v2",
+		"1": "animated_java:item/transparent",
+		"2": "impossible_to_speedrun:item/hand/lower_arm_lower",
+		"3": "animated_java:item/transparent"
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "minecraft:item/purple_dye"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "item/animated_java_empty"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "minecraft:item/rig_portal_tentacle_a/portal"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "minecraft:item/rig_portal_tentacle_a/tentacle_a1_mesh"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4
+			},
+			"model": "minecraft:item/rig_portal_tentacle_a/tentacle_a2_mesh"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 5
+			},
+			"model": "minecraft:item/rig_portal_tentacle_a/tentacle_a3_mesh"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6
+			},
+			"model": "minecraft:item/rig_portal_tentacle_a/tentacle_a4_mesh"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 7
+			},
+			"model": "minecraft:item/rig_portal_tentacle_a/root"
+		}
+	],
+	"animated_java": {
+		"rigs": {
+			"portal_tentacle_a": {
+				"used_ids": [
+					2,
+					3,
+					4,
+					5,
+					6,
+					7
+				]
+			}
+		}
+	}
+}
